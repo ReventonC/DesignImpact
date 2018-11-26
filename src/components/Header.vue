@@ -18,7 +18,7 @@ export default {
     position: fixed;
     z-index: 100;
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 5px 5px 5px 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
@@ -29,7 +29,7 @@ export default {
 p {
     font-size: 1.2em;
     font-weight: bold;
-    margin: auto 20px;
+    margin: auto 20px; 
 }
 
 a {
