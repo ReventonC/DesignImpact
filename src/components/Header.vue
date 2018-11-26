@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <p>Design Impact - Zehua Chen</p>
+        <p>Design Impact &nbsp;&nbsp; <a target="_blank" href="https://reventonc.github.io">Zehua Chen</a></p>
     </div>
 </template>
 
@@ -28,6 +28,14 @@ export default {
 
 p {
     font-size: 1.2em;
+    font-weight: bold;
     margin: auto 20px;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color: rgb(96, 138, 123);
+    }
 }
 </style>
