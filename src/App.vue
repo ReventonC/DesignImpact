@@ -18,12 +18,14 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 * {
   transition: 0.5s ease;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family:'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #4b4b4b;

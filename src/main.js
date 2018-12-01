@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueImg from 'v-img'
 
+Vue.use(VueImg)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

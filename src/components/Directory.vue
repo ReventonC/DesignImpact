@@ -104,7 +104,7 @@ h2 {
       font-size: 1.5em;
     }
 
-    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
   }
 
   $background-size: 25vw;
