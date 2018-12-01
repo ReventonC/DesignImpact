@@ -85,17 +85,25 @@
           <div class="text">
             <h2>Karuta</h2>
             <p>
-              The idea of visualizng <b>board member</b> comes from
+              The idea of visualizng
+              <b>board member</b> comes from
               <b>
                 <a style="color: #A88EEA" href="https://en.wikipedia.org/wiki/Karuta">Karuta</a>
-              </b>
+              </b>, a type of traditional Japanese playing cards. Usually, each card has a distinct character on it, along with an accompanying hiragana character in the corner signifying the character's initial syllable.
             </p>
           </div>
         </div>
       </div>
       <div class="manga">
         <div class="half">
-          <h2>Manga</h2>
+          <div class="text">
+            <h2>Manga</h2>
+            <p>
+              <b>
+                <a style="color: #A88EEA" href="https://en.wikipedia.org/wiki/Manga">Manga</a>
+              </b>, aka Japanese comics, might be one of the most famous Japanese popular culture symbols. I utilize it to visualize the event photos, while styling each events as a bookmark.
+            </p>
+          </div>
         </div>
         <div class="half">
           <div class="img-container">
@@ -174,7 +182,6 @@ h1 {
 
 .home {
   flex-direction: column;
-
   &-img {
     width: 100%;
   }
@@ -324,11 +331,13 @@ h1 {
   }
   .karuta {
     h2 {
-      color: rgb(61, 124, 59);
+      color: rgb(97, 187, 93);
     }
   }
   .manga {
-    padding: 30px;
+    h2 {
+      color: rgb(241, 152, 79);
+    }
   }
   .responsive {
     padding: 30px;
