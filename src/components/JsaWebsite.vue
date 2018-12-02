@@ -149,8 +149,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-a {
-}
 .img-container {
   position: relative;
   .overlay {
