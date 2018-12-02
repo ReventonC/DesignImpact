@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import VueImg from 'v-img'
 import pimg from 'pimg/vue'
+import BackToTop from 'vue-backtotop'
 Vue.use(VueImg)
 Vue.use(pimg)
+Vue.use(BackToTop)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

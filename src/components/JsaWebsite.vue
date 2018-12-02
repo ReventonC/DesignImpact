@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <back-to-top text bottom="5%" right="10%">
+      <v-icon class="overlay" name="arrow-alt-circle-up" scale="5"/>
+    </back-to-top>
     <div class="background back-image"></div>
     <div class="background back-color"></div>
     <div class="section home">
@@ -46,7 +49,7 @@
         <div class="text">
           <h1>Wireframe</h1>
           <p>
-            The webframe of the website is made on Adobe Xd. In the early design, main color theme is determined. I chose
+            The wireframe of the website is made on Adobe Xd. In the early design, main color theme is determined. I chose
             <span
               class="color-text"
             >candy colors</span> because of the joyfullness and vitalness they express, and they are compatible with the graphic design of the banner and other visual elements.
@@ -155,6 +158,7 @@
 <script>
 /* eslint-disable */
 import "vue-awesome/icons/search-plus";
+import "vue-awesome/icons/arrow-alt-circle-up";
 import Icon from "vue-awesome/components/Icon";
 export default {
   name: "JsaWebsite",
@@ -424,7 +428,6 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 .back {
@@ -434,7 +437,7 @@ h1 {
     background-size: 1500px;
   }
   &-color {
-    background-color: rgba(255, 255, 255, 0.8);      
+    background-color: rgba(255, 255, 255, 0.8);
   }
 }
 </style>
