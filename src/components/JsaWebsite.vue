@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <div class="background back-image"></div>
+    <div class="background back-color"></div>
     <div class="section home">
       <img src="../assets/jsa/home.png" class="home-img">
       <h1>UCSD JSA Website</h1>
@@ -113,22 +115,39 @@
         </div>
       </div>
       <div class="responsive">
-        <div class="img-container">
-          <img v-img:name src="../assets/jsa/responsive-1.gif" alt>
-          <v-icon class="overlay" name="search-plus" scale="3"/>
+        <div class="text">
+          <h2>Responsive</h2>
+          <p>I put a lot of attention to the responsive design while implementing the JSA website. While Raccoonal is more of a prototype, this website is actually put into use, so I need to make sure the users can have a great experience whenever they access to it. Responsive design is important as it enables the website's accesiblity to different platforms/devices.</p>
         </div>
-        <div class="img-container">
-          <img v-img:name src="../assets/jsa/responsive-2.gif" alt>
-          <v-icon class="overlay" name="search-plus" scale="3"/>
-        </div>
-        <div class="img-container">
-          <img v-img:name src="../assets/jsa/responsive-3.gif" alt>
-          <v-icon class="overlay" name="search-plus" scale="3"/>
+        <div class="imgs-wrapper">
+          <div class="img-container">
+            <img v-img:name src="../assets/jsa/responsive-1.gif" alt>
+            <v-icon class="overlay" name="search-plus" scale="3"/>
+          </div>
+          <div class="img-container">
+            <img v-img:name src="../assets/jsa/responsive-2.gif" alt>
+            <v-icon class="overlay" name="search-plus" scale="3"/>
+          </div>
+          <div class="img-container">
+            <img v-img:name src="../assets/jsa/responsive-3.gif" alt>
+            <v-icon class="overlay" name="search-plus" scale="3"/>
+          </div>
         </div>
       </div>
     </div>
     <div class="section backend">
-      <h1>Backend</h1>
+      <div class="half">
+        <div class="text">
+          <h1>Backend</h1>
+          <p>All the data are hosted on firebase. This allows the future maintance to be easy, by just updating data directly to the database rather than change the code of the website.</p>
+        </div>
+      </div>
+      <div class="half">
+        <div class="img-container">
+          <img v-img:name src="../assets/jsa/firebase.png" alt>
+          <v-icon class="overlay" name="search-plus" scale="3"/>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -151,6 +170,11 @@ export default {
 <style scoped lang="scss">
 .img-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  img {
+    margin: auto;
+  }
   .overlay {
     opacity: 0;
     position: absolute;
@@ -242,7 +266,7 @@ h1 {
 }
 
 .wireframe {
-  padding: 80px !important;
+  padding: 60px !important;
   border-bottom: 1px solid;
 
   h1 {
@@ -266,7 +290,7 @@ h1 {
     margin-left: 10px;
   }
   .text {
-    width: 70%;
+    width: 80%;
     margin: auto auto;
     p {
       padding: 30px 0 0 20px;
@@ -281,7 +305,7 @@ h1 {
 }
 
 .design {
-  padding: 80px !important;
+  padding: 60px !important;
   border-bottom: 1px solid;
   flex-direction: column;
 
@@ -312,7 +336,7 @@ h1 {
     display: flex;
     padding: 30px;
     .text {
-      width: 70%;
+      width: 80%;
       margin: auto auto;
       p {
         padding: 30px 0 0 20px;
@@ -340,11 +364,77 @@ h1 {
   .responsive {
     padding: 30px;
     display: flex;
+    flex-direction: column;
+    .imgs-wrapper {
+      display: flex;
+    }
+    h2 {
+      color: rgb(88, 95, 134);
+    }
     img {
-      width: 100%;
+      width: 90%;
       height: 100%;
       margin: auto auto;
     }
+    p {
+      padding: 10px 40px;
+    }
+    .text {
+      margin: auto;
+      width: 90%;
+    }
+  }
+}
+
+.backend {
+  padding: 60px !important;
+  flex-direction: row;
+
+  h1 {
+    color: #509be1;
+    font-size: 2.5vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+  p {
+    margin: 0 auto;
+    font-size: 1.2vw;
+  }
+  .text {
+    width: 80%;
+    margin: auto auto;
+    p {
+      padding: 30px 0 0 20px;
+    }
+  }
+  .half {
+    width: 50%;
+    display: flex;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.background {
+  position: fixed;
+  z-index: -1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.back {
+  &-image {
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX15641396.jpg");
+    filter: blur(4px);
+    background-size: 1500px;
+  }
+  &-color {
+    background-color: rgba(255, 255, 255, 0.8);      
   }
 }
 </style>
