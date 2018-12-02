@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <p><a href="/">Design Impact</a> &nbsp;&nbsp; <a target="_blank" href="https://reventonc.github.io">Zehua Chen</a></p>
+        <p><router-link to="/">Design Impact</router-link> &nbsp;&nbsp; <a target="_blank" href="https://reventonc.github.io">Zehua Chen</a></p>
     </div>
 </template>
 

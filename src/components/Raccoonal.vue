@@ -109,25 +109,59 @@
         </div>
       </div>
       <div class="sub scan">
-        <div class="img-container three">
+        <div class="img-container">
           <img v-img:name src="../assets/rac/scan.gif" alt>
           <v-icon class="overlay" name="search-plus" scale="3"/>
         </div>
         <div class="text">
           <h2>Emotion Evaluation</h2>
           <p>Emotion evaluation is the main functionality of the application. It is consist of two main parts, facial expression scanning and mental health quiz.</p>
-          <p>Facial scanning is powered by
-            <a href="https://developer.affectiva.com" target="_blank">Affectiva</a>, an emotion AI SDK. Facial expressions always contain a lot of information about a person's mental status.
+          <p>
+            Facial scanning is powered by
+            <a
+              href="https://developer.affectiva.com"
+              target="_blank"
+            >Affectiva</a>, an emotion AI SDK. Facial expressions always contain a lot of information about a person's mental status.
           </p>
-          <p>Users also need to do a mental health quiz during the emotion evaluate process. This quiz is used for assisting emotion evaluation results. We used <i>Wizard-of-Oz technique</i> while implementing it.</p>
+          <p>
+            Users also need to do a mental health quiz during the emotion evaluate process. This quiz is used for assisting emotion evaluation results. We used
+            <i>Wizard-of-Oz technique</i> while implementing it.
+          </p>
         </div>
-        <div class="img-container three">
+        <div class="img-container">
           <img v-img:name src="../assets/rac/quiz.gif" alt>
           <v-icon class="overlay" name="search-plus" scale="3"/>
         </div>
       </div>
       <div class="sub calendar">
-        <h2>Calendar and Reflection</h2>
+        <div class="text">
+          <h2>Calendar and Reflection</h2>
+          <p>The emotion evaluation results are saved to the calendar. This calendar provides users a place to check their past emotion records and memos, so that they can utilize this as a place to do a self mental reflection.</p>
+        </div>
+        <div class="img-container">
+          <img v-img:name src="../assets/rac/quiz.gif" alt>
+          <v-icon class="overlay" name="search-plus" scale="3"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="section testing">
+      <div class="half up">
+        <div class="text">
+          <h1>User Testing</h1>
+          <p>We conducted an A/B testing with Google Analytics to find out user's preference over two versions of design.</p>
+        </div>
+      </div>
+      <div class="half down img-container">
+        <img v-img:name src="../assets/rac/abtest.png" alt="Wireframe on Adobe Xd">
+        <v-icon class="overlay" name="search-plus" scale="3"/>
+      </div>
+      <div class="text">
+        <p>We also interviewed 20 users, and collected their qualitative feedbacks. We incorporated their advices in revising our final version of the application.</p>
+      </div>
+      <div class="half down img-container">
+        <img v-img:name src="../assets/rac/abtest2.png" alt="Wireframe on Adobe Xd">
+        <v-icon class="overlay" name="search-plus" scale="3"/>
       </div>
     </div>
   </div>
@@ -328,6 +362,7 @@ h1 {
 .design {
   padding: 60px !important;
   flex-direction: column;
+  border-bottom: 1px solid;
 
   h1 {
     margin: auto;
@@ -360,8 +395,27 @@ h1 {
         padding: 0 10px;
       }
     }
-    .three {
+    .img-container {
       width: 25%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .calendar {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    .text {
+      width: 50%;
+      p {
+        margin: 10px auto;
+        padding: 0 10px;
+      }
+    }
+    .img-container {
+      width: 50%;
     }
     img {
       width: 100%;
@@ -382,9 +436,51 @@ h1 {
   &-image {
     filter: blur(4px);
     background-size: 1500px;
+    background-image: url("https://previews.123rf.com/images/cnuisin/cnuisin1806/cnuisin180600019/103217924-paw-seamless-pattern-dog-paw-cat-paw-bulldog-vector-isolated-background-wallpaper.jpg");
   }
   &-color {
-    background-color: rgba(64, 113, 202, 0.8);
+    background-color: rgba(64, 113, 202, 0.9);
+  }
+}
+
+.testing {
+  padding: 60px !important;
+  border-bottom: 1px solid;
+  flex-direction: column;
+
+  .color-text {
+    color: rgb(252, 222, 103) !important;
+  }
+  .left {
+    color: #ffa0ad;
+    margin-right: 10px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .text {
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      margin: 0 auto;
+      font-size: 2.5vw;
+    }
+    p {
+      padding: 30px 0 0 20px;
+      margin: 0 auto;
+      font-size: 1.2vw;
+    }
+  }
+  .img-container {
+    width: 70%;
+    margin: 30px auto;
+    img {
+      width: 100%;
+    }
   }
 }
 </style>

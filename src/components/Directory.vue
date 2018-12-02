@@ -58,7 +58,7 @@ h1 {
 }
 
 h2 {
-  margin: 10px auto 30px;
+  margin: 10px auto 10px;
 }
 
 .line {
@@ -121,7 +121,7 @@ h2 {
       width: 100%;
       height: 1.5 * $background-size;
       border-radius: 0;
-      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0);
       border: 0px white solid;
     }
   }

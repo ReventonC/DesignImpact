@@ -6,7 +6,7 @@
     <div class="background back-image"></div>
     <div class="background back-color"></div>
     <div class="section home">
-      <img src="../assets/jsa/home.png" class="home-img">
+      <img src="../assets/JSAbanner.jpg" class="home-img">
       <h1>UCSD JSA Website</h1>
     </div>
     <div class="section intro">
