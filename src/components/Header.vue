@@ -14,6 +14,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+* {
+  color: #4b4b4b;
+}
 .header {
     position: fixed;
     z-index: 100;

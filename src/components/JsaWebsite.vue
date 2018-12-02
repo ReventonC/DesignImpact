@@ -172,6 +172,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+* {
+  color: #4b4b4b;
+}
 .img-container {
   position: relative;
   display: flex;

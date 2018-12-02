@@ -37,9 +37,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-* {
-  color: rgba(0, 0, 0, 0.8);
-}
 .outer {
   background-image: url("../assets/background.png");
   background-repeat: repeat;
@@ -161,5 +158,8 @@ $padding-side: 15%;
   &:hover {
     background-color: rgba(#ff98ca, 0.7);
   }
+}
+* {
+  color: #4b4b4b;
 }
 </style>

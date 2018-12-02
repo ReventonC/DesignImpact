@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <back-to-top text bottom="5%" right="10%">
-      <v-icon class="overlay" name="arrow-alt-circle-up" scale="5"/>
+      <div class="backtotop">
+        <v-icon name="arrow-alt-circle-up" scale="5"/>
+      </div>
     </back-to-top>
     <div class="background back-image"></div>
     <div class="background back-color"></div>
@@ -184,9 +186,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-* {
+
+h1,h2,h3,p,a,tr,th {
   color: white;
 }
+
 .img-container {
   position: relative;
   display: flex;
@@ -482,5 +486,9 @@ h1 {
       width: 100%;
     }
   }
+}
+
+.backtotop {
+  color: #face11;
 }
 </style>

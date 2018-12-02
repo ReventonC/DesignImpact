@@ -28,6 +28,9 @@ export default {
   font-family:'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
   color: #4b4b4b;
 }
 </style>
