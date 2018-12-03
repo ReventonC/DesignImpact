@@ -155,17 +155,29 @@
         </div>
       </div>
       <div class="half down img-container">
-        <img v-img:name src="../assets/rac/abtest.png" alt="Wireframe on Adobe Xd">
+        <img v-img:name src="../assets/rac/abtest.png">
         <v-icon class="overlay" name="search-plus" scale="3"/>
       </div>
       <div class="text">
         <p>We also interviewed 20 users, and collected their qualitative feedbacks. We incorporated their advices in revising our final version of the application.</p>
       </div>
       <div class="half down img-container">
-        <img v-img:name src="../assets/rac/abtest2.png" alt="Wireframe on Adobe Xd">
+        <img v-img:name src="../assets/rac/abtest2.png">
         <v-icon class="overlay" name="search-plus" scale="3"/>
       </div>
     </div>
+    <div class="section present">
+      <div class="half up">
+        <div class="text">
+          <h1>Final Presentation</h1>
+          <p>Raccoonal won the "Most Human-centered" prize on the final presentation, awarded by Professor Scott Klemmer and Mr. Chuck Pelly. Here is our poster we exihibited on the presentation.</p>
+        </div>
+      </div>
+      <div class="half down img-container">
+        <img v-img:name src="../assets/rac/poster.jpg">
+        <v-icon class="overlay" name="search-plus" scale="3"/>
+    </div>
+  </div>
   </div>
 </template>
 
@@ -233,13 +245,13 @@ h1 {
   h1 {
     padding: 0 50px 10px;
     margin: 20px auto;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid white;
   }
 }
 
 .intro {
   flex-direction: column;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid white;
 
   font-size: 1.5vw;
   table {
@@ -276,12 +288,12 @@ h1 {
       text-align: center;
       width: 10%;
       text-decoration: none;
-      border: 1px solid;
+      border: 1px solid white;
       padding: 10px 0;
 
       &:hover {
         background-color: rgba(#face11, 0.7);
-        border: rgba(#face11, 0.7) 1px;
+        border: rgba(#face11, 0.7) 1px white;
         color: white;
       }
     }
@@ -289,8 +301,8 @@ h1 {
 }
 
 .paper {
-  padding: 60px !important;
-  border-bottom: 1px solid;
+  padding: 40px !important;
+  border-bottom: 1px solid white;
   flex-direction: column;
 
   h1 {
@@ -329,8 +341,8 @@ h1 {
 }
 
 .wireframe {
-  padding: 60px !important;
-  border-bottom: 1px solid;
+  padding: 40px !important;
+  border-bottom: 1px solid white;
   flex-direction: column;
 
   h1 {
@@ -364,9 +376,9 @@ h1 {
 }
 
 .design {
-  padding: 60px !important;
+  padding: 40px !important;
   flex-direction: column;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid white;
 
   h1 {
     margin: auto;
@@ -448,21 +460,43 @@ h1 {
 }
 
 .testing {
-  padding: 60px !important;
-  border-bottom: 1px solid;
+  padding: 40px !important;
+  border-bottom: 1px solid white;
   flex-direction: column;
 
   .color-text {
     color: rgb(252, 222, 103) !important;
   }
-  .left {
-    color: #ffa0ad;
-    margin-right: 10px;
-  }
-  .right {
+  .text {
+    width: 80%;
+    margin: auto auto;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    h1 {
+      margin: 0 auto;
+      font-size: 2.5vw;
+    }
+    p {
+      padding: 30px 0 0 20px;
+      margin: 0 auto;
+      font-size: 1.2vw;
+    }
+  }
+  .img-container {
+    width: 70%;
+    margin: 30px auto;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.present {
+  padding: 40px !important;
+  flex-direction: column;
+
+  .color-text {
+    color: rgb(252, 222, 103) !important;
   }
   .text {
     width: 80%;
