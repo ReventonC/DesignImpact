@@ -174,7 +174,7 @@
         </div>
       </div>
       <div class="half down img-container">
-        <img v-img:name src="../assets/rac/poster.jpg">
+        <img v-img:name src="../assets/rac/poster.png">
         <v-icon class="overlay" name="search-plus" scale="3"/>
     </div>
   </div>
