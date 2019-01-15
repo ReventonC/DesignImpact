@@ -176,8 +176,8 @@
       <div class="half down img-container">
         <img v-img:name src="../assets/rac/poster.png">
         <v-icon class="overlay" name="search-plus" scale="3"/>
+      </div>
     </div>
-  </div>
   </div>
 </template>
 
@@ -198,8 +198,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-h1,h2,h3,p,a,tr,th {
+h1,
+h2,
+h3,
+p,
+a,
+tr,
+th {
   color: white;
 }
 

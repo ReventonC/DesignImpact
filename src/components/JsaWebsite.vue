@@ -25,11 +25,11 @@
         </tr>
         <tr>
           <th>Introduction</th>
-          <th>This is a individual project. This website is made for UCSD Japanese Student Association, a social orgnaization consist of Japanese students and people who are interested in Japanese culture.</th>
+          <th>This is an individual project. This website was made for UCSD Japanese Student Association, a social organization that consists of Japanese students and people who are interested in Japanese culture.</th>
         </tr>
         <tr>
           <th>Goal</th>
-          <th>My goal is to introduce what UCSD JSA is and what we do, and visualize informations. As JSA is a Japanese community, I want to intergrate Japanese elements into the design.</th>
+          <th>My goal was to introduce what UCSD JSA is and what it does and visualize information. Since JSA is a Japanese community, I integrated Japanese elements into the design.</th>
         </tr>
       </table>
       <div class="links">
@@ -49,26 +49,26 @@
         <div class="text">
           <h1>Wireframe</h1>
           <p>
-            The wireframe of the website is made on Adobe Xd. In the early design, main color theme is determined. I chose
+            The wireframe of the website is made on Adobe Xd. The main color theme was determined in the early design. I chose to use
             <span
               class="color-text"
-            >candy colors</span> because of the joyfullness and vitalness they express, and they are compatible with the graphic design of the banner and other visual elements.
+            >candy colors</span> because of the joyfulness and vitality that they express, as well as their compatibility with the graphic design of the banner and other visual elements.
           </p>
         </div>
       </div>
     </div>
     <div class="section design">
-      <h1>Visual Design</h1>
+      <h1>Visual &amp; Interaction Design</h1>
       <div class="gacha">
         <div class="half">
           <div class="text">
             <h2>Gashapon</h2>
             <p>
-              The design of visualizng
-              <b>future/past events</b> is inspired from
+              The design of visualizing
+              <b>future/past events</b> is inspired by
               <b>
                 <a style="color: #A88EEA" href="https://en.wikipedia.org/wiki/Gashapon">Gashapon</a>
-              </b>, a vending machine that sells colorful toy capsules. They can be found in and outside stores throughout Japan. I consider it as a iconic and ubiquitous Japanese popular culture element.
+              </b>, a vending machine that sells colorful toy capsules. They can be found in and outside stores throughout Japan. I consider it an iconic element of Japanese popular culture.
             </p>
           </div>
         </div>
@@ -90,11 +90,12 @@
           <div class="text">
             <h2>Karuta</h2>
             <p>
-              The idea of visualizng
-              <b>board member</b> comes from
+              The
+              <b>board members</b> page is inspired by
               <b>
                 <a style="color: #A88EEA" href="https://en.wikipedia.org/wiki/Karuta">Karuta</a>
-              </b>, a type of traditional Japanese playing cards. Usually, each card has a distinct character on it, along with an accompanying hiragana character in the corner signifying the character's initial syllable.
+              </b>
+              , a traditional Japanese playing cards. Played like a matching game, half of the cards have a hiragana character in the corner signifying the first syllable of the corresponding card. Like so, each board member is introduced in a Karuta card format, with the first letter of his/her first name depicted on the right corner.
             </p>
           </div>
         </div>
@@ -104,9 +105,10 @@
           <div class="text">
             <h2>Manga</h2>
             <p>
+              Japanese comics, known as
               <b>
                 <a style="color: #A88EEA" href="https://en.wikipedia.org/wiki/Manga">Manga</a>
-              </b>, aka Japanese comics, might be one of the most famous Japanese popular culture symbols. I utilize it to visualize the event photos, while styling each events as a bookmark.
+              </b>, might be one of the most famous symbols of Japanese popular culture. I utilized this theme to visualize the event photos, and styled each event as a bookmark.
             </p>
           </div>
         </div>
@@ -120,7 +122,7 @@
       <div class="responsive">
         <div class="text">
           <h2>Responsive</h2>
-          <p>I put a lot of attention to the responsive design while implementing the JSA website. While Raccoonal is more of a prototype, this website is actually put into use, so I need to make sure the users can have a great experience whenever they access to it. Responsive design is important as it enables the website's accesiblity to different platforms/devices.</p>
+          <p>I was especially attentive to responsive design while implementing the JSA website. Optimizing the user experience was critical as this website is currently under use, unlike Raccoonal which was a prototype. Responsive design is important as it enhances the website's accessibility to different platforms/devices.</p>
         </div>
         <div class="imgs-wrapper">
           <div class="img-container">
@@ -142,7 +144,7 @@
       <div class="half">
         <div class="text">
           <h1>Backend</h1>
-          <p>All the data are hosted on firebase. This allows the future maintance to be easy, by just updating data directly to the database rather than change the code of the website.</p>
+          <p>All the data are hosted on firebase. This allows future maintenance to be easy by allowing data to be updated directly into the database rather than requiring a change in the code of the website.</p>
         </div>
       </div>
       <div class="half">
